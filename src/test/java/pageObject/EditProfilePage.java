@@ -63,7 +63,7 @@ public class EditProfilePage extends BasePage {
 
         WebElement uploadInput = driver.findElement(By.id("undefined-err-inp"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.display='block';", uploadInput);
-        uploadInput.sendKeys(System.getProperty("user.dir") + "/testData/Rutik-Resume.pdf");
+        uploadInput.sendKeys(System.getProperty("user.dir") + "/testData/RutikThitame.pdf");
 //        driver.findElement(By.cssSelector("input.dummyUpload")).click();
 
     }
